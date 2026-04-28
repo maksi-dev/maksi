@@ -1,0 +1,18 @@
+body{
+    background-color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    border: solid gray 5px;
+    border-radius: 4px;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+}
+.prog{
+    border: solid gray 5px;
+    border-radius: 4px;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+}
