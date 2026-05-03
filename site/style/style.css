@@ -1,18 +1,46 @@
-body{
-    background-color: gainsboro;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-.title{
-    border: solid gray 5px;
-    border-radius: 4px;
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
-    width: 50%;
-    margin: 10px;
+    width: 500px;
 }
-.prog{
-    border: solid gray 5px;
-    border-radius: 4px;
-    text-align: center;
-    width: 50%;
-    margin: 10px;
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #005ea6;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+    word-wrap: break-word;
 }
